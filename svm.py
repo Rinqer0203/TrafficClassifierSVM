@@ -5,9 +5,9 @@ from sklearn.metrics import accuracy_score, classification_report
 from traffic_attributes import TrafficAttr
 
 
-SAMPLED_PATH = './201501_sampled.txt'   # SVMのトレーニングに使用するサンプリングデータ
-TEST_PATH = './201502_sampled.txt'    # 評価に使用するテストデータ
-TEST_PATH = './20150201_sampled.txt'    # 評価に使用するテストデータ
+SAMPLED_PATH = './201501_sampled.txt'   # SVMのトレーニングに使用するサンプリングデータ (2015年1月)
+# TEST_PATH = './201502_sampled.txt'    # SVMのテストに使用するサンプリングデータ (2015年2月)
+TEST_PATH = './20150201_sampled.txt'    # SVMのテストに使用するサンプリングデータ (2015年2月1日)
 
 # 使用する数値データの特徴量
 NUMERIC_FEATURES = [
