@@ -58,7 +58,7 @@ def main():
     # - gamma: RBFカーネルの幅を制御するパラメータ。大きい値にするとモデルがより複雑になり、過学習のリスクが増える
     # - random_state: 結果の再現性を確保するための乱数シード
     # - max_iter: 最大反復回数。収束しない場合の停止条件
-    model = SVC(kernel='rbf', C=200, gamma=0.2, random_state=42, max_iter=5000)
+    model = SVC(kernel='rbf', C=118.58291377240849, gamma=0.47450412719997725, random_state=42, max_iter=5000)
     model.fit(X_train, y_train)
 
     # テストデータでの評価
